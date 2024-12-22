@@ -1,0 +1,31 @@
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot hdmi_tb_behav xil_defaultlib.hdmi_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=17.62...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_wiz_0_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_0
+Compiling module xil_defaultlib.vga_default
+Compiling module unisims_ver.SRL16E_default
+Compiling module xil_defaultlib.srldelay(WIDTH=40,TAPS=4'b1010)
+Compiling module xil_defaultlib.encode_default
+Compiling module xil_defaultlib.encode(CHANNEL="GREEN")
+Compiling module xil_defaultlib.encode(CHANNEL="RED")
+Compiling module unisims_ver.OSERDESE2(DATA_RATE_TQ="SDR",DAT...
+Compiling module unisims_ver.OSERDESE2(DATA_RATE_TQ="SDR",DAT...
+Compiling module xil_defaultlib.serdes_10_to_1
+Compiling module unisims_ver.OBUFDS(IOSTANDARD="TMDS_33")
+Compiling module xil_defaultlib.hdmi_tx_v1_0_default
+Compiling module xil_defaultlib.hdmi_tx_0
+Compiling module xil_defaultlib.hdmi_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot hdmi_tb_behav
